@@ -31,7 +31,7 @@ func ConstructorInjectionExamples() {
 func getServicesDefinitions() gontainer.ServiceDefinitions {
 
 	dbConfig := map[string]string{
-		"host": "localhost",
+		"host":     "localhost",
 		"username": "root",
 		"password": "toor",
 	}

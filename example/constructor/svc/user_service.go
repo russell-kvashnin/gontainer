@@ -4,7 +4,7 @@ import "fmt"
 
 type UserService struct {
 	mailer *Mailer
-	repo *UserRepository
+	repo   *UserRepository
 }
 
 func NewUserService(repo *UserRepository, mailer *Mailer) *UserService {
