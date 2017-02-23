@@ -1,8 +1,8 @@
 package gontainer
 
 import (
+	"errors"
 	"fmt"
-	"github.com/pkg/errors"
 	"reflect"
 )
 
