@@ -1,6 +1,12 @@
 # Gontainer, DI container in Golang
-###### Code written by lobotomized squirrel squad under tons of cocaine
-###### Don't use it in your application, to avoid getting awkwards 
+[![Build Status](https://travis-ci.org/russell-kvashnin/gontainer.svg?branch=master)](https://travis-ci.org/russell-kvashnin/gontainer)
+[![GoDoc](https://godoc.org/github.com/russell-kvashnin/gontainer?status.svg)](http://godoc.org/github.com/russell-kvashnin/gontainer)
+[![Coverage](http://gocover.io/_badge/github.com/russell-kvashnin/gontainer)](http://gocover.io/github.com/russell-kvashnin/gontainer)
+[![codebeat badge](https://codebeat.co/badges/cf45cc54-85f6-443b-b4b2-17a6d96e8c4f)](https://codebeat.co/projects/github-com-russell-kvashnin-gontainer)
+[![goreport](https://goreportcard.com/badge/github.com/russell-kvashnin/gontainer)](https://goreportcard.com/report/github.com/russell-kvashnin/gontainer)
+
+Code written by lobotomized squirrel squad under tons of cocaine
+Don't use it in your application, to avoid getting awkwards 
 
 ## How to
 Basic usage, for more look in example folder
