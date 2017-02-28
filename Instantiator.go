@@ -56,9 +56,11 @@ func (ins *instantiator) prepareConstructorArgs(args ConstructorArguments, fn in
 	for i, v := range args {
 		fnArgType := reflect.TypeOf(fn).In(i)
 		vArgType := reflect.TypeOf(v)
+		argTypeAll := reflect.TypeOf([]interface {}{})
 
 		// Declared function argument and given has different types
-		if vArgType != fnArgType && vArgType != typ.InjectionType {
+		// Except case when arg type is []interface{} (any type)
+		if vArgType != fnArgType && vArgType != typ.InjectionType && fnArgType != argTypeAll {
 			err := fmt.Sprintf(
 				"Argument type mismatch, expected %s, got %s",
 				fnArgType,
