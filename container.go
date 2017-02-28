@@ -60,7 +60,7 @@ func (c *Container) Compile(defs ServiceDefinitions) []error {
 func (c *Container) doCompile(defs ServiceDefinitions) []error {
 	var errs []error
 
-	c.builder.build(defs)
+	errs = c.builder.build(defs)
 	if len(errs) > 0 {
 		return errs
 	}
